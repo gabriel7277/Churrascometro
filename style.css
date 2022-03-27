@@ -1,0 +1,43 @@
+#container {
+    max-width: 230px;
+    margin: auto;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url(../churras/background\ churras.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+input {
+    width: 100;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.button {
+    align-items: center;
+    margin-left: 50px;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #00008b;
+    width: 100px;
+    height: 40px;
+    border: 5px #00008b solid;
+    border-radius: 15px;
+    cursor: pointer;
+}

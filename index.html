@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Churrascometro</title>
+</head>
+
+<body>
+    <section>
+        <div id="container">
+            <div id="textDiv">
+                <h2>FAÇA O CÁLCULO<br/>DO SEU CHURRASCO</h2>
+                <input id="adultos" type="number" placeholder="Quantidade de adultos" />
+                <input id="criancas" type="number" placeholder="Quantidade de crianças" />
+                <input id="duracao" type="number" placeholder="Duração em horas" />
+                <input onclick="calc()" type="button" class="button" value="Calcular" />
+                <div id="resultado"></div>
+            </div>
+            <div class="resultado">
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
